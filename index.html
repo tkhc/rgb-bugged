@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+<h1>
+	The Great 
+	<br>
+	<span id="colorDisplay">RGB</span> 
+	<br>
+	Color Game
+</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button class="mode">Easy</button>
+	<button class="mode selected">Hard</button>
+</div>
+<div id="score">
+Score:
+<span id="scoreDisplay">0</span>
+</div>
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+</div>
+
+<div class="footer">
+	<div>
+		<h2>Rules</h2>
+		<ol>
+			<li>Minus one point for every wrong guess.</li>
+			<li>When you win, you get a point for every square left.</li>
+		</ol>
+	</div>
+    <a style="color: white;" href="http://www.skilledkc.org">SkilledKC.org</a>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
